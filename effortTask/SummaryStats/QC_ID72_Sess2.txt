@@ -1,0 +1,20 @@
+Subject ID 72 session 2
+
+Effort bonus: 5.535
+
+QC Effort task: 
+PASS: Recovery of Effort file.
+PASS: proportion of missed trials <0.2
+PASS: proportion of same effort choices <0.85
+PASS: proportion of same left/right choices <0.85
+
+QC RLT task - learning: 
+PASS: Recovery of Learning file.
+PASS: proportion of missed trials <0.2
+PASS: Performance > 0.5
+
+QC RLT task - testing: 
+PASS: Recovery of Testing data.
+PASS: proportion of missed trials <0.2
+PASS: proportion of same left/right choices <0.75
+PASS: proportion of alternating choices <0.75

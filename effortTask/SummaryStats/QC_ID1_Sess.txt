@@ -1,0 +1,20 @@
+Subject ID 1 session 
+
+Effort bonus: NaN
+
+QC Effort task: 
+FAIL: Recovery of Effort file.
+FAIL: proportion of missed trials <0.2
+FAIL: proportion of same effort choices <0.85
+FAIL: proportion of same left/right choices <0.85
+
+QC RLT task - learning: 
+FAIL: Recovery of Learning file.
+FAIL: proportion of missed trials <0.2
+FAIL: Performance > 0.5
+
+QC RLT task - testing: 
+FAIL: Analysis of Testing data.
+FAIL: proportion of missed trials <0.2
+FAIL: proportion of same left/right choices <0.75
+FAIL: proportion of alternating choices <0.75
