@@ -14,7 +14,7 @@
 function DEMO_Effort(sujet,session)
 %clear all
 debug = 1;
-language = 1;%1 for dutch
+language = 2;%1 for dutch
 
 % change that to new computer
 keynumbers = [KbName('1!') KbName('0)')];

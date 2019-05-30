@@ -19,7 +19,7 @@ load language
 %directory = 'C:\Users\Main\Documents\MATLAB\GroupedExpeData';
 directory = 'C:\Users\RL\Documents\MATLAB\GroupedExpeData';
 directory = '.';% /Users/frankmj/Downloads/a/PDE10_LaptopCode_June13/EffortTask';
-
+directory = 
 
 % change that to new computer
 keynumbers = [KbName('1!') KbName('0)')];

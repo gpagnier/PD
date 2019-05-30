@@ -54,8 +54,8 @@ clc
 
 %% set up Working Directory
 %WorkingDirectory = 'C:\Users\Main\Documents\MATLAB';
-WorkingDirectory = 'C:\Users\RL\Documents\MATLAB';
-WorkingDirectory = '/Users/frankmj/Downloads/a/PDE10_LaptopCode_June13/';
+%WorkingDirectory = 'C:\Users\RL\Documents\MATLAB';
+WorkingDirectory = '/Users/Guillaume/Documents/GitHub/PD/effortTask';
 
 cd(WorkingDirectory)
 
@@ -113,7 +113,7 @@ if task>2 % include day 5.
 elseif isempty(intersect(session,1:4)) 
     disp('Error. Incorrect session number (enter 1, 22, 57 or 92).')
 elseif task==1 
-    cd RLWMPST_Short
+    %cd RLWMPST_Short
     setDebugState(demo);
     Main_RLWMPST(subject_id,session);
     cd ..

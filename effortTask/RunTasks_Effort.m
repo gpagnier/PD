@@ -60,7 +60,7 @@ clc
 % get subject, day info
 subject_id = input('Enter the subject ID # :\n');
 session = input('Enter the day #:\n');
-task = 2; %input('Enter the task number # (1-2):\n');
+task = 1; %input('Enter the task number # (1-2):\n');
 
 sessionnumbers = [1 2];
 session = find(sessionnumbers==session);
@@ -111,7 +111,7 @@ if task>2 % include day 5.
 elseif isempty(intersect(session,1:4)) 
     disp('Error. Incorrect session number (enter 1, 22, 57 or 92).')
 elseif task==1 
-    cd RLWMPST_Short/
+    cd effortTaskDumpData/
     setDebugState(demo);
     Main_RLWMPST(subject_id,session);
     cd ..
